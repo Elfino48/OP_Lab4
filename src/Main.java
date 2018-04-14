@@ -1,4 +1,5 @@
 public class Main {
-    llllllll
-    asdklj;lkasd;ljs;a
+    public static void main(String[] args) {
+        System.out.print("Hello, El!");
+    }
 }
