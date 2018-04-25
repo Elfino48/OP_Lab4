@@ -1,11 +1,17 @@
 import java.io.*;
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) throws IOException {
-        ManualHash a = new ManualHash();
-        Dictionary b = new Dictionary("res/dictionary.csv");
-        a.createHashTable();
-        b.setDictionary();
-        System.out.println(b.getValue(args[0].toLowerCase()));
+        Dictionary b = new Dictionary("res/dd"); // Создаем словарь
+
+        Scanner in = new Scanner(System.in); // Scanner для проверки ввода в консоль
+
+        while(true) { // Бесконечный ввод
+            System.out.print("Type a word to get definition: ");
+            String key = in.next();
+            b.getValue(key);
+        }
     }
 }
 //Тут думаю всё понятно
