@@ -2,7 +2,7 @@ import java.io.*;
 
 public class Dictionary {
     String res;
-    private ManualHash hashTable = new ManualHash();
+    private ManualHash hashTable = new ManualHash(1);
 
     Dictionary (String res) throws IOException {
         this.res = res;
