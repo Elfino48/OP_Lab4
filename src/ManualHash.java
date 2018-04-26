@@ -5,7 +5,7 @@ public class ManualHash  {
     int numEl = 0;
     private ArrayList<LinkedList> arr = new ArrayList<>();
 
-    ManualHash(int s){ // Конструктор, резервирующий 90000 пустых мест
+    ManualHash(int s){ // Конструктор, резервирующий 1 пустое место
         this.size = s;
         for ( int i = 0; i < size; i++ ){
             arr.add(new LinkedList());
@@ -34,10 +34,15 @@ public class ManualHash  {
 
     private int HashingMachine(String key) { // Функция хеширования, суммирует все символы строки и делит на размер массива
         int elHash = 0;
-        for (int i = 0; i < key.length(); i++) {
+
+        /*for (int i = 0; i < key.length(); i++) {
             elHash += key.charAt(i);
-        }
-        elHash %= size;
+        }*/
+
+        for (int i = 0; i < key.length(); i++)
+            elHash = (31 * elHash + key.charAt(i)) % size;
+
+       // elHash %= size;
 
         return elHash;
     }
@@ -51,6 +56,6 @@ public class ManualHash  {
         arr = hash2.arr;
         numEl = hash2.numEl;
         size = hash2.size;
-        System.out.println(size);
+        //System.out.println(size);
     }
 }
