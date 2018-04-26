@@ -6,9 +6,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0c70753-4d0d-488c-b697-b9ee51e5ca6f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/dd" afterPath="$PROJECT_DIR$/res/dd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/LinkedList.java" afterPath="$PROJECT_DIR$/src/LinkedList.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ManualHash.java" afterPath="$PROJECT_DIR$/src/ManualHash.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -36,8 +33,8 @@
       <file leaf-file-name="ManualHash.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ManualHash.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="19" column="10" lean-forward="false" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+            <state relative-caret-position="348">
+              <caret line="24" column="27" lean-forward="false" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -46,8 +43,8 @@
       <file leaf-file-name="LinkedList.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/LinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="410">
-              <caret line="73" column="0" lean-forward="true" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+            <state relative-caret-position="284">
+              <caret line="67" column="5" lean-forward="true" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -56,8 +53,8 @@
       <file leaf-file-name="dd" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/dd">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="9" column="5" lean-forward="false" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+            <state relative-caret-position="273">
+              <caret line="3" column="262" lean-forward="false" selection-start-line="3" selection-start-column="262" selection-end-line="3" selection-end-column="262" />
               <folding />
             </state>
           </provider>
@@ -66,7 +63,7 @@
       <file leaf-file-name="Dictionary.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Dictionary.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
+            <state relative-caret-position="593">
               <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
               <folding />
             </state>
@@ -95,9 +92,9 @@
       <list>
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/Dictionary.java" />
-        <option value="$PROJECT_DIR$/src/ManualHash.java" />
         <option value="$PROJECT_DIR$/res/dd" />
         <option value="$PROJECT_DIR$/src/LinkedList.java" />
+        <option value="$PROJECT_DIR$/src/ManualHash.java" />
       </list>
     </option>
   </component>
@@ -290,15 +287,16 @@
       <workItem from="1524674140928" duration="5476000" />
       <workItem from="1524693098907" duration="5684000" />
       <workItem from="1524699311867" duration="951000" />
-      <workItem from="1524728194075" duration="3807000" />
+      <workItem from="1524728194075" duration="4510000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20800000" />
+    <option name="totallyTimeSpent" value="21503000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -309,7 +307,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -785,7 +783,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Dictionary.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
+        <state relative-caret-position="593">
           <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding />
         </state>
@@ -793,24 +791,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ManualHash.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="19" column="10" lean-forward="false" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+        <state relative-caret-position="348">
+          <caret line="24" column="27" lean-forward="false" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/dd">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="9" column="5" lean-forward="false" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        <state relative-caret-position="273">
+          <caret line="3" column="262" lean-forward="false" selection-start-line="3" selection-start-column="262" selection-end-line="3" selection-end-column="262" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="73" column="0" lean-forward="true" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+        <state relative-caret-position="284">
+          <caret line="67" column="5" lean-forward="true" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
           <folding />
         </state>
       </provider>

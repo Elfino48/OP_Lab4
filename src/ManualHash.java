@@ -18,7 +18,7 @@ public class ManualHash  {
         numEl++;
         int hash = HashingMachine(key);
         //System.out.println(hash);
-        arr.get(hash).addEl(key, val);
+        arr.get(hash).addEl(key.toLowerCase(), val);
     }
 
     public void hashSearch(String key){ // Поиск элемента по хешкоду
