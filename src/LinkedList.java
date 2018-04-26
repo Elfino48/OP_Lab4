@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class LinkedList {
 
     Element firstElement = null;
@@ -6,12 +8,13 @@ public class LinkedList {
 
     class Element{
 
-        String key, val;
-        Element next = null, prev = null;
+        String key;
+        Element next = null;
+        ArrayList<String> innerList = new ArrayList<>();
 
         Element(String k, String v){
             this.key = k;
-            this.val = v;
+            innerList.add(v);
         }
     }
 
@@ -25,6 +28,12 @@ public class LinkedList {
     }
 
     private void addElReq(Element el, String k, String v){
+
+        if ( k.equals(el.key) ){
+            el.innerList.add(v);
+            return;
+        }
+
         if (el.next != null )
             addElReq(el.next, k, v);
         else {
@@ -47,7 +56,9 @@ public class LinkedList {
             return;
 
         if ( k.equals(el.key) ) {
-            System.out.println(el.val);
+            for( int i = 0; i < el.innerList.size(); i++ ){
+                System.out.println(el.innerList.get(i));
+            }
             return;
         }
 
@@ -61,7 +72,11 @@ public class LinkedList {
         if ( firstElement == null )
             return hash2;
 
-        hash2.push(el.key, el.val);
+
+        for ( int i = 0; i < el.innerList.size(); i++){
+            hash2.push(el.key, el.innerList.get(i));
+        }
+
 
         if ( el.next != null )
             getElementArray(hash2, el.next);
