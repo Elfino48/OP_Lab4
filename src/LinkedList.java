@@ -46,12 +46,27 @@ public class LinkedList {
         if ( firstElement == null )
             return;
 
-        if ( k.equals(el.key) )
+        if ( k.equals(el.key) ) {
             System.out.println(el.val);
+            return;
+        }
 
         if ( el.next != null )
             find(k, el.next);
 
+    }
+
+    public ManualHash getElementArray(ManualHash hash2, Element el){
+
+        if ( firstElement == null )
+            return hash2;
+
+        hash2.push(el.key, el.val);
+
+        if ( el.next != null )
+            getElementArray(hash2, el.next);
+
+        return hash2;
     }
 
 
